@@ -6,12 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>692</width>
+    <height>414</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI Semibold</family>
+    <pointsize>11</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
   </property>
   <property name="windowTitle">
    <string>GradeCalculator</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
   </property>
   <property name="autoFillBackground">
    <bool>true</bool>
@@ -22,13 +33,16 @@
      <rect>
       <x>120</x>
       <y>30</y>
-      <width>51</width>
-      <height>16</height>
+      <width>91</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>SimSun-ExtB</family>
+      <family>Segoe UI Symbol</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -46,7 +60,10 @@
     </property>
     <property name="font">
      <font>
-      <family>SimSun-ExtB</family>
+      <family>Segoe UI Symbol</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
@@ -64,41 +81,14 @@
     </property>
     <property name="font">
      <font>
-      <family>SimSun-ExtB</family>
+      <family>Segoe UI Symbol</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
      <string>Midterm 2</string>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="doubleSpinBox">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>90</y>
-      <width>62</width>
-      <height>22</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>140</y>
-      <width>62</width>
-      <height>22</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
-    <property name="geometry">
-     <rect>
-      <x>500</x>
-      <y>180</y>
-      <width>62</width>
-      <height>22</height>
-     </rect>
     </property>
    </widget>
    <widget class="QLabel" name="label_12">
@@ -112,14 +102,38 @@
     </property>
     <property name="font">
      <font>
-      <family>SimSun-ExtB</family>
+      <family>Segoe UI Symbol</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
      <string>8</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QLabel" name="Score">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>270</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -163,14 +177,17 @@
     </property>
     <property name="font">
      <font>
-      <family>SimSun-ExtB</family>
+      <family>Segoe UI Symbol</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
      <string>Final</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -189,9 +206,6 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_4"/>
-       </item>
       </layout>
      </item>
      <item>
@@ -202,9 +216,6 @@
           <enum>Qt::Horizontal</enum>
          </property>
         </widget>
-       </item>
-       <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_5"/>
        </item>
       </layout>
      </item>
@@ -217,9 +228,6 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_6"/>
-       </item>
       </layout>
      </item>
      <item>
@@ -230,9 +238,6 @@
           <enum>Qt::Horizontal</enum>
          </property>
         </widget>
-       </item>
-       <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_7"/>
        </item>
       </layout>
      </item>
@@ -245,9 +250,6 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_8"/>
-       </item>
       </layout>
      </item>
      <item>
@@ -258,9 +260,6 @@
           <enum>Qt::Horizontal</enum>
          </property>
         </widget>
-       </item>
-       <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_9"/>
        </item>
       </layout>
      </item>
@@ -273,9 +272,6 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_10"/>
-       </item>
       </layout>
      </item>
      <item>
@@ -287,14 +283,11 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QDoubleSpinBox" name="doubleSpinBox_11"/>
-       </item>
       </layout>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -303,12 +296,23 @@
       <height>201</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Symbol</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
     <layout class="QVBoxLayout" name="verticalLayout_3">
      <item>
       <widget class="QLabel" name="label_5">
        <property name="font">
         <font>
-         <family>SimSun-ExtB</family>
+         <family>Segoe UI Symbol</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -320,7 +324,10 @@
       <widget class="QLabel" name="label_6">
        <property name="font">
         <font>
-         <family>SimSun-ExtB</family>
+         <family>Segoe UI Symbol</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -332,7 +339,10 @@
       <widget class="QLabel" name="label_7">
        <property name="font">
         <font>
-         <family>SimSun-ExtB</family>
+         <family>Segoe UI Symbol</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -344,7 +354,10 @@
       <widget class="QLabel" name="label_8">
        <property name="font">
         <font>
-         <family>SimSun-ExtB</family>
+         <family>Segoe UI Symbol</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -356,7 +369,10 @@
       <widget class="QLabel" name="label_9">
        <property name="font">
         <font>
-         <family>SimSun-ExtB</family>
+         <family>Segoe UI Symbol</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -368,7 +384,10 @@
       <widget class="QLabel" name="label_10">
        <property name="font">
         <font>
-         <family>SimSun-ExtB</family>
+         <family>Segoe UI Symbol</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -380,11 +399,223 @@
       <widget class="QLabel" name="label_11">
        <property name="font">
         <font>
-         <family>SimSun-ExtB</family>
+         <family>Segoe UI Symbol</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
         <string>7</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>120</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>90</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_4">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>150</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_5">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>180</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_6">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>210</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_7">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>240</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_8">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Score:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>20</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>10C</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10B</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>70</y>
+      <width>47</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QSpinBox" name="spinBox_9">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox_10">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox_11">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Choose Class:</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>321</x>
+      <y>260</y>
+      <width>111</width>
+      <height>56</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>Schema A</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>Schema B</string>
        </property>
       </widget>
      </item>
@@ -396,13 +627,398 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>21</height>
+     <width>692</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>183</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>90</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_3</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>199</x>
+     <y>122</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>253</x>
+     <y>128</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_2</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>178</x>
+     <y>124</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_2</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>214</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_3</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>241</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>187</x>
+     <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_4</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>198</x>
+     <y>183</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_5</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>244</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>180</x>
+     <y>213</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_6</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>237</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_7</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>211</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_6</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>239</x>
+     <y>251</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>179</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_5</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>243</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>168</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_4</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>242</x>
+     <y>189</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>139</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_8</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_8</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>208</x>
+     <y>303</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_8</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_8</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>241</x>
+     <y>295</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>176</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_7</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>261</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>269</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_7</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_7</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>131</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>240</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_5</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>132</x>
+     <y>210</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>248</x>
+     <y>219</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_9</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_9</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>459</x>
+     <y>121</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>526</x>
+     <y>125</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_9</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_9</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>517</x>
+     <y>111</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>429</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_10</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_10</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>443</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>533</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_10</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_10</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>516</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>429</x>
+     <y>163</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_11</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_11</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>443</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>514</x>
+     <y>223</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_11</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_11</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>517</x>
+     <y>213</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>430</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
